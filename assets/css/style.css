@@ -132,3 +132,9 @@ p { max-width: 65ch; }
   .hero-orbit .ring { animation: none; }
   .btn, .nd-card, .project .thumb { transition: none; }
 }
+/* Screenshot mode: show all reveal elements */
+html.screenshot-mode .reveal {
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+}

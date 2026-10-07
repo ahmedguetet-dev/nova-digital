@@ -59,3 +59,7 @@ if (form) {
 /* Footer year */
 const year = document.getElementById("year");
 if (year) year.textContent = new Date().getFullYear();
+/* Screenshot mode */
+if (new URLSearchParams(window.location.search).has("screenshot")) {
+  document.documentElement.classList.add("screenshot-mode");
+}
